@@ -166,31 +166,5 @@ Optimized for React with Tailwind CSS integration and fast refresh.
 - Chrome, Firefox, Safari, Edge (latest versions)
 - Node.js >= 20.19.0 || >= 22.12.0
 
-## 🌐 Environment Variables
-
-Create a `.env` file in the root directory if needed:
-
-```env
-# Add your environment variables here
-VITE_API_URL=your_api_url
-```
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📞 Contact
-
-Project Link: [https://github.com/yourusername/veridian](https://github.com/yourusername/veridian)
-
----
 
 **Built with ❤️ using React + Vite + Tailwind CSS**
