@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import Agence from './pages/Agence'
@@ -7,8 +6,9 @@ import Blogs from './pages/Blogs'
 import AdminPanel from './pages/AdminPanel'
 
 const App = () => {
+
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

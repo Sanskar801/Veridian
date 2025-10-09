@@ -7,9 +7,9 @@ const HomeHeroText = () => {
             <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-center uppercase lg:leading-[8vw] leading-[10vw]'>
                 L&apos;énergie
             </div>
-            <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
+            <div className='lg:text-[9.5vw] text-[12vw] flex justify-center items-start uppercase lg:leading-[8vw] leading-[10vw]'>
                 that
-                <div className='h-[7vw] w-[16vw] rounded-full -mt-3 overflow-hidden '>
+                <div className='h-[7vw] w-[16vw] rounded-full -mt-1 overflow-hidden '>
                     <Video />
                 </div>
                 transforms
