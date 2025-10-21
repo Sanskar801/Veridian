@@ -26,11 +26,11 @@
     opacity: 1;
 }
 
-@keyframes moveAnimation {
+@keyframes carousel-scroll {
     from{
         transform: translateX(0);
     }
     to{
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }

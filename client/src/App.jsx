@@ -1,20 +1,23 @@
 import { Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import Agence from './pages/Agence'
-import Projects from './pages/Projects'
+import Work from './pages/Work'
 import Blogs from './pages/Blogs'
-import AdminPanel from './pages/AdminPanel'
+import ContactPage from './pages/ContactPage'
+import Layout from './components/layout/Layout'
 
 const App = () => {
 
   return (
     <div className='overflow-x-hidden'>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/agence" element={<Agence />} />
         <Route path="/blogs" element={<Blogs />} />
-        <Route path="/admin" element={<AdminPanel />} />
+        <Route path="/contact" element={<ContactPage />} />
+        </Route>
       </Routes>
     </div>
   )
