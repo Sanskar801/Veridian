@@ -7,7 +7,11 @@ const FullScreenNav = ({ navs, setIsMenuActive }) => {
         <div className="bg-black h-[100vh] w-screen z-50 absolute flex flex-col">
 
             <div className='flex justify-between'>
-                <NavLink className="py-3 pl-2" to={"/"}>
+                <NavLink
+                    className="py-3 pl-2"
+                    to={"/"}
+                    onClick={() => setIsMenuActive(false)}
+                >
                     <svg className='h-12 pl-4 w-auto' viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
                         <text x="0" y="35"
                             fontFamily="Helvetica, sans-serif"
