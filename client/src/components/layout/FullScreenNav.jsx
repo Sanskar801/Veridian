@@ -26,7 +26,7 @@ const FullScreenNav = ({ navs, setIsMenuActive }) => {
                 </button>
             </div>
 
-            <div className="flex flex-col text-center text-8xl font-bold h-full">
+            <div className="flex flex-col text-center text-7xl sm:text-8xl font-bold h-full">
                 {navs.map(navL => (
                     <div
                         key={navL.id}
@@ -54,23 +54,22 @@ const FullScreenNav = ({ navs, setIsMenuActive }) => {
                 ))}
             </div>
 
-
-            <div className='flex justify-between'>
-                <div>
-                    <span className="text-white">clock__</span>
-                    <span className="text-white">India__</span>
-                    <span className="text-white">India__</span>
+            <div className='flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 p-4 sm:p-0'>
+                <div className='flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-0'>
+                    <span className="text-white text-xs sm:text-sm">clock__</span>
+                    <span className="text-white text-xs sm:text-sm">India__</span>
+                    <span className="text-white text-xs sm:text-sm">India__</span>
                 </div>
-                <div className='text-white text-center flex gap-4 text-[.5rem] font-medium'>
-                    <div>PRIVACY POLICY</div>
-                    <div>PRIVACY NOTICE</div>
-                    <div>ETHICS REPORT</div>
-                    <div>CONCENT CHOICES</div>
+                <div className='text-white text-center flex flex-wrap justify-center gap-2 sm:gap-4 text-[0.4rem] sm:text-[0.5rem] font-medium'>
+                    <div className='text-center'>PRIVACY POLICY</div>
+                    <div className='text-center'>PRIVACY NOTICE</div>
+                    <div className='text-center'>ETHICS REPORT</div>
+                    <div className='text-center'>CONCENT CHOICES</div>
                 </div>
-                <div className="text-white flex gap-2">
-                    <div className="border-2 rounded-4xl text-4xl font-bold px-3">FB</div>
-                    <div className="border-2 rounded-4xl text-4xl font-bold px-3">IG</div>
-                    <div className="border-2 rounded-4xl text-4xl font-bold px-3">IN</div>
+                <div className="text-white flex gap-1 sm:gap-2">
+                    <div className="border-2 rounded-4xl text-2xl sm:text-3xl md:text-4xl font-bold px-2 sm:px-3">FB</div>
+                    <div className="border-2 rounded-4xl text-2xl sm:text-3xl md:text-4xl font-bold px-2 sm:px-3">IG</div>
+                    <div className="border-2 rounded-4xl text-2xl sm:text-3xl md:text-4xl font-bold px-2 sm:px-3">IN</div>
                 </div>
             </div>
 
